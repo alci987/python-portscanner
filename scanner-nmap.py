@@ -1,4 +1,4 @@
-import nmap
+import nmap # caso não tenha essa biblioteca instalada, no terminal digite: pip install python-nmap
 
 # joga na variável scanner todos os atributos da biblioteca nmap
 scanner = nmap.PortScanner()
